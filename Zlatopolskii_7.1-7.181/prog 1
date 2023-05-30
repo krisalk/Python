@@ -1,0 +1,7 @@
+# Златопольский 7.1
+sum = 0
+a = int(input())
+for i in range(1, 10):
+    sum += a
+    a = int(input())
+print(sum)

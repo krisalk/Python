@@ -1,0 +1,8 @@
+# Златопольский 2.18
+x = float(input('Введите x '))
+y = float(input('Введитеe y '))
+from math import sqrt, sin
+chis = x + (2 + y) / x ** 2 #числитель для z
+znam = y + 1 / sqrt(x ** 2 + 10) #Знаменатель для z
+print('z =', chis / znam)
+print('q =', 7.25 * sin(x) - abs(y))

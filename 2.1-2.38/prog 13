@@ -1,0 +1,8 @@
+'''
+Златопольский 2.10
+'''
+a = int(input())
+b = int(input())
+from math import sqrt
+print('Среднее арифметическое равно', (a + b) / 2)
+print('Среднее геометрическое равно', sqrt(a * b))

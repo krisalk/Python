@@ -1,0 +1,10 @@
+# Златопольский 2.19
+e = float(input('Введите e '))
+f = float(input('Введитеe f '))
+g = float(input('Введитеe g '))
+h = float(input('Введитеe h '))
+from math import sqrt, sin, cos
+k = abs(e - 3 / f) ** 3 + g # подкоренное выражение для а
+print('a =', sqrt(k))
+print('b =', sin(e) + cos(h) ** 2)
+print('c =', (33 * g) / (e * f - 3))

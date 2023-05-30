@@ -1,0 +1,4 @@
+# Златопольский 5.19
+from math import sin
+for a in range(0, 16):
+    print(sin(a + 0.1))

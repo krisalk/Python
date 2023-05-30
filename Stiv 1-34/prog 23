@@ -1,0 +1,5 @@
+# Стивенсон, упаражнение 23
+s = float(input('Длина стороны = '))
+n = int(input('Сколько сторон в многоугольнике? '))
+from math import tan, pi
+print('Площадь =', n * s * s / (4 * tan(pi / n)))

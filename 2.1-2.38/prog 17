@@ -1,0 +1,7 @@
+'''
+Златопольский 2.14
+'''
+a = int(input())
+b = int(input())
+from math import sqrt
+print('Гипотенуза равна', sqrt(a ** 2 + b ** 2))

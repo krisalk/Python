@@ -1,0 +1,7 @@
+'''
+Златопольский, 2.3 a)
+'''
+
+a = float(input())
+from math import sqrt, sin
+print(sqrt((2 * a + sin(abs(3 * a))) / 3.56))

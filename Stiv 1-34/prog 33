@@ -1,0 +1,8 @@
+# Стивенсон, упаражнение 33
+n1 = int(input('Первое число ' ))
+n2 = int(input('Второе число '))
+n3 = int(input('Третье число '))
+min1 = min(n1, n2, n3)
+max1 = max(n1, n2, n3)
+a = n1 + n2 + n3 - min1 - max1
+print(min1, a, max1)

@@ -1,0 +1,11 @@
+# Стивенсон, упаражнение 10
+a = int(input())
+b = int(input())
+print('Сумма', a + b)
+print('Разность', a - b)
+print('Произведение', a * b)
+print('Частное', a / b)
+print('Остаток от деления', a - a // b)
+from math import log10
+print('Десятичный логарифм числа a', log10(a))
+print('Число а в степени b', a ** b)

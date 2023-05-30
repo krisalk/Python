@@ -1,0 +1,10 @@
+# Златопольский 2.19
+a = float(input('Введите а '))
+b = float(input('Введите b '))
+from math import sqrt, sin
+chis_x = 2 / (a ** 2 + 25) + b # находим числитель для х
+znam_x = sqrt(b) + (a + b) / 2 # находим знаменатель для х
+chis_y = abs(a) + 2 * sin(b) # находим числитель для у
+znam_y = 5.5 * a # находим знаменатель для у
+print('x =', chis_x / znam_x)
+print('y =', chis_y / znam_y)

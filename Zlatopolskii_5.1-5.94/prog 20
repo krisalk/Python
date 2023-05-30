@@ -1,0 +1,5 @@
+# Златопольский 5.16
+
+for i in range(1, 16):
+    from math import sin
+    print(sin(i))

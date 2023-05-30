@@ -1,0 +1,6 @@
+# Стивенсон, упаражнение 18
+r = float(input('r = '))
+h = float(input('h = '))
+from math import pi
+
+print('Объем цилиндра равен', round(pi * r * r * h, 2))

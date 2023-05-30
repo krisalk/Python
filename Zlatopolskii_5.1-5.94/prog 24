@@ -1,0 +1,4 @@
+# Златопольский 5.20
+from math import sqrt
+for a in range(0, 10):
+    print(sqrt(a + 0.1))
