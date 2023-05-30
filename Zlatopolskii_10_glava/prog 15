@@ -1,0 +1,16 @@
+# Златопольский 10.9
+import random
+sum0 = 0
+sum1 = 0
+for i in range(0, 1000):
+    a = random.randint(0, 1)
+    if a == 1:
+        sum1 += 1
+    else:
+        sum0 += 1
+if sum1 > sum0:
+    print('орлов больше')
+if sum1 < sum0:
+    print('решек больше')
+if sum1 == sum0:
+    print('орлов и решек выпало поровну')

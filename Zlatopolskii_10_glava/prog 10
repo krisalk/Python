@@ -1,0 +1,5 @@
+# Златопольский 10.2 в)
+import random
+
+for i in range(0, 20):
+    print(random.randint(10, 21))

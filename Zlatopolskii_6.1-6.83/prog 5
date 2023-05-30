@@ -1,0 +1,8 @@
+# Златопольский 6.6
+n = int(input('Введите число '))
+a = 1
+sum = 0
+while n % a == 0:
+    a = a + 1
+    sum += 1
+print(sum)

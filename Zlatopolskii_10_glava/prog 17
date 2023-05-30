@@ -1,0 +1,10 @@
+# Златопольский 10.12
+import random
+a = (random.randint(1, 6))
+b = (random.randint(1, 6))
+if a > b:
+    print('Первый игрок выиграл ')
+if a < b:
+    print('Второй игрок выиграл ')
+if a == b:
+    print('Ничья ')

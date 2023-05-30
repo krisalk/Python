@@ -1,0 +1,7 @@
+# Златопольский 10.8
+import random
+a = random.randint(0, 1)
+if a == 1:
+    print('орел')
+if a == 0:
+    print('решка')

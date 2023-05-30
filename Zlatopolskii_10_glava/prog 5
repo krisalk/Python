@@ -1,0 +1,9 @@
+# Златопольский 10.1 д)
+import random
+a = int(input('a = '))
+b = int(input('b = '))
+k = random.randint(0, a)
+print(k)
+for i in range(1, k + 1):
+    n = random.randint(0, b)
+    print(n)

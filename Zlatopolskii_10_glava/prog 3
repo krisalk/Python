@@ -1,0 +1,6 @@
+# Златопольский 10.1 в)
+import random
+
+for i in range(1, 16):
+    n = random.uniform(25, 26)
+    print(n)

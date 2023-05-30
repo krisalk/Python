@@ -1,0 +1,6 @@
+# Златопольский 10.1 a)
+import random
+for i in range(1, 9):
+    n = random.random()
+    print(n)
+

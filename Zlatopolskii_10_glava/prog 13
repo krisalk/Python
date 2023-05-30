@@ -1,0 +1,12 @@
+# Златопольский 10.3
+import random
+a = int(input('a = '))
+b = int(input('b = '))
+m = random.randint(0, 20)
+print(m)
+n = random.randint(0, 20)
+print(n)
+for i in range(0, n):
+    print(random.randint(a, b))
+for i in range(0, m):
+    print(random.randint(0, n))

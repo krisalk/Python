@@ -1,0 +1,6 @@
+# Златопольский 10.1 e)
+import random
+
+for i in range(1, 11):
+    n = random.randint(-40, 40)
+    print(n)
