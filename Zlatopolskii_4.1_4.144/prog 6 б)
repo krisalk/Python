@@ -1,0 +1,6 @@
+# Златопольский 4.6 б)
+x = float(input('x = '))
+if x <= 3:
+    print('y = -', x, sep = '')
+else:
+    print('y = -3')

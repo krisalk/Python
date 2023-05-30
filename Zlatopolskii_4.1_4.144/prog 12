@@ -1,0 +1,10 @@
+# Златопольский 4.12
+r = int(input('Введите радиус круга '))
+a = int(input('Введите сторону квадрата '))
+from math import pi
+sr = pi * r ** 2
+sa = a * a
+if sr < sa:
+    print('квадрат')
+else:
+    print('круг')

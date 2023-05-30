@@ -1,0 +1,16 @@
+# Стивенсон, упражнение 66
+print('Введите пустую строку, чтобы прекратить ввод')
+PENNIES = 5
+NICKEL = 0.05
+total = 0
+sum1 = input("Введите цену товара ")
+
+while sum1 != "":
+    total = total + float(sum1)
+    sum1 = input("Введите цену товара ")
+    k = total * 100 % PENNIES
+if k < PENNIES / 2:
+    cash_total = total - k / 100
+else:
+    cash_total = total + NICKEL - k / 100
+print("Сумма для оплаты наличными: ", cash_total)

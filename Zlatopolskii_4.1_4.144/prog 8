@@ -1,0 +1,11 @@
+# Златопольский 4.8
+x = int(input('x = '))
+k = int(input('k = '))
+from math import sin
+if x < k:
+     print('f =', abs(x))
+else:
+    if sin(x) >= 0:
+        print('f =', x ** 3)
+    else:
+        print('f =', abs(x) * x)

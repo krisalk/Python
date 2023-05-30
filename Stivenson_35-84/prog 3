@@ -1,0 +1,24 @@
+# Стивенсон, упражнение 38
+kolvo = int(input('Введите количество сторон '))
+name = ''
+if kolvo == 3:
+    name = "треугольник"
+elif kolvo == 4:
+    name = "прямоугольник"
+elif kolvo == 5:
+    name = "пятиугольник"
+elif kolvo == 6:
+    name = "шестиугольник"
+elif kolvo == 7:
+    name = "семиугольник"
+elif kolvo == 8:
+    name = "восьмиугольник"
+elif kolvo == 9:
+    name = "девятиугольник"
+elif kolvo == 10:
+    name = "десятиугольник"
+
+if name == '':
+    print("ошибка")
+else:
+    print("Эта фигура:", name)

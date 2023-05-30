@@ -1,0 +1,6 @@
+# Златопольский 4.6 a)
+x = float(input('x = '))
+if x <= 2:
+    print('y =', x)
+else:
+    print('y = 2')
